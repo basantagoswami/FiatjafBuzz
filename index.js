@@ -22,7 +22,7 @@ const getMessage = () => {
 
   const isOddDay = today.getDate() % 2 === 1;
 
-  return isOddDay ? "GM fiatjaf" : "null";
+  return isOddDay ? "GM fiatjaf" : null;
 };
 
 const postMessage = async () => {
